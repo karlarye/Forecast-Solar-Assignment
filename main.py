@@ -14,5 +14,6 @@ dmi_data['ghi_extra'] = pvlib.irradiance.get_extra_radiation(dmi_data.index)
 print(dmi_data.head())
 
 
-# Check BSRN quality control
+# Check BSRN quality control physically possible values 
+
 
